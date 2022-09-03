@@ -1,0 +1,146 @@
+body{
+background: bisque;
+
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.logo{
+    margin: 50px;
+}
+
+.susurro{
+  margin-left: 80px;
+  width: 650px;
+  height: 400px;
+  color: rgb(31, 151, 184);
+  font-weight: bold;
+  font-size:50px;
+  border: none;
+  background-color: transparent;
+  font-family: 'Dancing Script', cursive;
+}
+::placeholder { 
+    color: rgb(31, 151, 184);
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    
+ }
+
+.muneco{
+    display: block;
+    border-radius: 15px;
+    width: 260px;
+    height: 500px;
+    margin-left: 415px;
+    font-size: 20px;
+    background-color: rgba(31, 151, 184, 0.646);
+    background-image: url(imagenes/Muñeco.png);
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 100%;
+    box-shadow: 10px 10px 15px #309fdb;
+    
+}
+
+.info{
+    color: blue;
+    opacity: 50%;
+    font-size: 15px;
+    margin-left: 90px;
+    margin-top: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+.encriptar{
+    border-color: white;
+    border-radius: 30px;    
+    background: rgb(31, 151, 184);
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 110px;
+    margin-left: 150px;
+    margin-right: 70px;
+    font-family: 'Quicksand', sans-serif;
+}
+.encriptar:active{
+    color: black;
+    opacity: 50%;
+}
+.desencriptar{
+    border-color: white;
+    border-radius: 30px;    
+    background: rgb(31, 151, 184);
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+ }
+
+  .desencriptar:active{
+    color: black;
+    opacity: 50%;
+}
+.copiar{
+    border-color: white;
+    border-radius: 30px;    
+    background: rgb(31, 151, 184);
+    color: white;
+    width: 200px;
+    height: 50px;
+    margin-left: 450px;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+.copiar:active{
+    color: black;
+    opacity: 50%;
+}
+.pie{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 30px;
+    }
+.github{
+    width: 1.5em;
+}
+@media screen and (max-width:480px){
+    main{
+        width: 100%;
+    }
+
+    .logo{
+        display: inline;
+        width: auto;
+        margin-left: 120px;
+    }
+    
+    .susurro{
+        width: 60%;
+        text-align: center;
+    }
+    .info{
+        text-align: center;
+        margin-right: 20px;
+    }
+   .encriptar{
+    margin-left: 90px;
+ }
+    .desencriptar{
+        margin-left: 90px;
+        margin-top: 10px;
+    }
+   
+   
+}
